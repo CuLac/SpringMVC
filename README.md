@@ -31,3 +31,9 @@
   - Spring MVC base trên các POJO class nên các hành động của nó khá đơn giản
   - Hỗ trợ cả Annotation và XML config giúp việc phát triển nhanh hơn và sạch hơn.
   - Cung cấp việc phân chia một cách rõ ràng, linh hoạt giữa controller, service, data acces layer.
+  
+### 4. Spring Web MVC
+  ### 4.1. DispatcherServlet
+  
+    1.Special Bean Types
+      - HandleMapping: Map a request to a handler along with a list of interceptors for pre- and post-processing. The mapping is based on some criteria, the details of which vary by HandlerMapping implementation.
